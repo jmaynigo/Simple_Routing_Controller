@@ -7,24 +7,24 @@
             <title>Skills</title>
         </head>
         <body>
+            <button>
+                <a href="http://127.0.0.1:8000/aboutMe">About Me</a>
+            </button>
+            <button>
+                <a href="http://127.0.0.1:8000/skills">Skills</a>
+            </button>
+            <button>
+                <a href="http://127.0.0.1:8000/hobbies">Hobbies</a>
+            </button>
+
             <h1>{{ $title }}</h1>
             <ul>
-                <li>{{ $skills1 }}</li>
-                <li>{{ $skills2 }}</li>
-                <li>{{ $skills3 }}</li>
-                <li>{{ $skills4 }}</li>
-                <li>{{ $skills5 }}</li>
+                <li>{{ $skill1 }}</li>
+                <li>{{ $skill2 }}</li>
+                <li>{{ $skill3 }}</li>
+                <li>{{ $skill4 }}</li>
+                <li>{{ $skill5 }}</li>
             </ul>
-
-            <button>
-                <a href="">About Me</a>
-            </button>
-            <button>
-                <a href="">Skills</a>
-            </button>
-            <button>
-                <a href="">Hobbies</a>
-            </button>
 
         </body>
     </html></div>
