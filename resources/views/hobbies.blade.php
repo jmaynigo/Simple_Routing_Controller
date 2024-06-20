@@ -7,6 +7,16 @@
             <title>Hobbies</title>
         </head>
         <body>
+            <button>
+                <a href="http://127.0.0.1:8000/aboutMe">About Me</a>
+            </button>
+            <button>
+                <a href="http://127.0.0.1:8000/skills">Skills</a>
+            </button>
+            <button>
+                <a href="http://127.0.0.1:8000/hobbies">Hobbies</a>
+            </button>
+
             <h1>{{ $title }}</h1>
             <ul>
                 <li>{{ $hobby1 }}</li>
@@ -15,16 +25,6 @@
                 <li>{{ $hobby4 }}</li>
                 <li>{{ $hobby5 }}</li>
             </ul>
-
-            <button>
-                <a href="">About Me</a>
-            </button>
-            <button>
-                <a href="">Skills</a>
-            </button>
-            <button>
-                <a href="">Hobbies</a>
-            </button>
 
         </body>
     </html>
