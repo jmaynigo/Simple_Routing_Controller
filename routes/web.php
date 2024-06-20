@@ -22,5 +22,5 @@ Route::get('/hobbies', function () {
 });
 
 Route::get('/aboutMe', [AboutMeController::class, 'index'])->name('aboutMe');
-Route::get('/skills', [AboutMeController::class, 'index'])->name('skills');
-Route::get('/hobbies', [AboutMeController::class, 'index'])->name('hobbies');
+Route::get('/skills', [SkillsController::class, 'index'])->name('skills');
+Route::get('/hobbies', [HobbiesController::class, 'index'])->name('hobbies');
